@@ -1,0 +1,69 @@
+.square {
+ color: #FFC0CB;
+ text-shadow: -1px 0 white, 0 1px  #BD946A, 1px 0 #BD946A, 0 -1px white;
+ background: #ABE0E8;
+ border: 1px solid #fff;
+ font-size: 24px;
+ float: left;
+ font-weight: bold;
+ line-height: 34px;
+ height: 34px;
+ padding: 0;
+ text-align: center;
+ width: 34px;
+}
+.square:hover {
+ cursor: pointer;
+ border: 1px solid #BD946A;
+}
+.square:active {
+ transform: translateY(1px);
+}
+
+.board-row:after {
+ clear: both;
+ content: "";
+ display: block;
+}
+
+.game {
+ display: flex;
+ flex-direction: row;
+}
+.game-info {
+ margin-left: 20px;
+}
+.btn {
+  display: flex;
+  margin: 7px 0px 10px 0px;
+  outline: none;
+  background-color: #FFC0CB;
+  border: none;
+  border-radius:5px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.btn:hover{
+  background-color: #FFB6C1;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #FFB6C1;
+  transform: translateY(4px);
+}
+.jogadorDaVez {
+  color: #ABE0E8;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 5px;
+}
+.image {
+ margin: 15px 30px;
+ max-width: 12.5%;
+}
+
+#root {
+  margin-left: 15px;
+}
